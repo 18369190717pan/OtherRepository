@@ -1,4 +1,10 @@
 learn how to use github
  what is wrong
 
+<<<<<<< HEAD
 ddddddd
+=======
+aaatest a conflict
+
+ccccc
+>>>>>>> fenzhi
