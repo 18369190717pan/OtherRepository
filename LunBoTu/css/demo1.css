@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#igs{
+
+}
+.ig{
+    position: absolute;
+}
+.btn{
+    position: absolute;
+    width:30px;
+    height: 45px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    top:73px;
+    cursor: pointer;/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`!*/
+    /*display: none;*/
+}
+.btn2{
+    left:243px;
+}
+#tabs{
+   position :absolute;
+    top:160px;
+    left:55px;
+}
+.tab{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: dodgerblue;
+    color:#fff;
+    text-align:center;
+    line-height:20px ;/*?????????为什么??????*/
+    float:left;
+    margin-right: 10px;
+    cursor:pointer;
+}
+.bg{
+    background-color: crimson;
+}
+
