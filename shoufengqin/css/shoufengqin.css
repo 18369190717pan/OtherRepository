@@ -1,0 +1,67 @@
+*{
+    padding:0px;
+    margin: 0px;
+    list-style-type: none;
+    font-family:"微软雅黑" ;
+}
+a{
+    text-decoration: none;
+}
+.pic{
+    width:900px;
+    height: 375px;
+    margin-top:70px;
+    /*overflow: auto;*/
+}
+.pic ul li{
+    float: left;
+    width: 100px;
+    height:375px;
+
+}
+.pic1{
+    background-image: url("../layer/1.jpg");
+}
+.pic2{
+    background-image: url("../layer/2.jpg");
+}
+
+.pic3{
+    background-image: url("../layer/3.jpg");
+}
+
+.pic ul .pic4{
+    background-image: url("../layer/4.jpg");
+    width: 600px;             /*.pic ul li的权重比.pic4高，所以Pic4设置的不起作用，
+                                     权重是加和比较的，内联：1000
+                                                       id：100
+                                                       class：10
+                                                       标签：1
+                                     所以这里设置
+                                     .pic ul .pic4   权重是21
+                                     .pic ul li      权重是10+1+1=12
+                                     注为什么  .pic ul li .pic4不起效果？？？ */
+}
+.txt{
+    background-color: #000;
+    background: rgba(0,0,0,0.5);
+    height: 375px;
+    width:100px ;
+}
+.txt p{               /*txt里面的p1*/
+    float:left;
+    color: white;
+
+}
+.txt .p1{
+    /*想让文字竖着，就让p的宽度为文字大小就行了！！！*/
+    font-size: 12px;
+    width: 12px;
+    padding:25px 25px 0px 20px ;
+}
+.txt .p2{
+    /*想让文字竖着，就让p的宽度为文字大小就行了！！！*/
+    font-size: 14px;
+    width: 14px;
+    margin-top:25px;
+}
