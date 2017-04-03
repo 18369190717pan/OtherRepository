@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+    font-family: "微软雅黑";
+}
+.igs{
+    margin:4px auto auto 450px;
+}
+.ig{
+    position: absolute;
+    border-radius: 20px 20px 25px 25px;
+    overflow: hidden;
+}
